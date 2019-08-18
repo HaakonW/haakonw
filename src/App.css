@@ -18,7 +18,8 @@ h2 {
 }
 
 p {
-  color: rgb(249, 255, 238);
+  color: lightslategray;
+  font-size: 18px;
 }
 
 pre {
@@ -55,8 +56,9 @@ section > ul {
 
 .container {
   padding: 10px;
+  margin-top: 100px;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 24px;
   grid-template-rows: 50% 50%;
   grid-template-areas:
     'left'
@@ -100,8 +102,9 @@ section > ul {
 }
 
 .rightSide img {
-  max-width: 50%;
+  max-width: 250px;
   border-radius: 50%;
   margin-top: 40px;
   margin-bottom: 40px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 10);
 }

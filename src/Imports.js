@@ -22,7 +22,7 @@ const Imports = () => (
       <span> './utils/constants';</span>
     </li>
     <li>
-      import <span>{'{ happy, age, experience }'}</span> from
+      import <span>{'{ age, experience }'}</span> from
       <span>{' ./life '};</span>
     </li>
   </ul>
