@@ -8,7 +8,7 @@ const Imports = () => (
       <span> './osloMet';</span>
     </li>
     <li>
-      import <span>{'{ HTML, CSS, JavaScript, React }'}</span> from
+      import <span>{'{ HTML, CSS, JavaScript, TypeScript, React }'}</span> from
       <span> './lang';</span>
     </li>
     <li>
