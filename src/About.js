@@ -5,7 +5,10 @@ import './App.css';
 
 const About = () => (
   <article className="rightSide">
-    <h2>Om meg</h2>
+    <h2>
+      {moment().diff(moment('01/05/1989'), 'years')} år gammel front-end
+      utvikler fra Oslo.{' '}
+    </h2>
     <div>
       <img
         src={img}
@@ -14,13 +17,12 @@ const About = () => (
     </div>
     <div>
       <p>
-        Jeg er {moment().diff(moment('01/05/1989'), 'years')} år gammel
-        front-end utvikler fra Oslo. Jeg jobber i dag hos
+        Jobber i dag hos
         <a rel="noopener noreferrer" target="_blank" href="https://www.oms.no">
           {' '}
           Oslo Market Solutions
         </a>
-        , noe jeg har gjort siden Januar 2017. Jeg er god i React og JavaScript.
+        , noe jeg har gjort siden Januar 2017. <br /> React og JavaScript.
       </p>
     </div>
   </article>

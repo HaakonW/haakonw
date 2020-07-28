@@ -12,7 +12,9 @@ h3 {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   color: lightblue;
   font-size: 2em;
 }
@@ -55,22 +57,15 @@ section > ul {
 }
 
 .container {
-  padding: 10px;
-  margin-top: 100px;
-  display: grid;
-  grid-gap: 24px;
-  grid-template-rows: 50% 50%;
-  grid-template-areas:
-    'left'
-    'right';
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 750px) {
   .container {
-    padding: 40px;
-
-    grid-template-areas: 'left right';
-    grid-template-columns: 50% 50%;
+    flex-direction: column;
   }
   ul {
     margin: 5px 0px 5px 40px;
@@ -78,14 +73,14 @@ section > ul {
 }
 
 .leftSide {
-  grid-area: left;
+  padding: 1em;
   border-right: solid 1px;
   border-left: solid 0px;
   border-image: linear-gradient(to bottom, #e84279, rgba(0, 0, 0, 0)) 1 100%;
 }
 
 .rightSide {
-  grid-area: right;
+  padding: 1em;
 }
 
 .leftSide > div {
@@ -103,6 +98,7 @@ section > ul {
 
 .rightSide img {
   max-width: 250px;
+  max-height: 250px;
   border-radius: 50%;
   margin-top: 40px;
   margin-bottom: 40px;
