@@ -18,12 +18,21 @@ const About = () => (
     <div>
       <p>
         Jobber i dag hos
-        <a rel="noopener noreferrer" target="_blank" href="https://www.oms.no">
+        <span style={{ textDecoration: "line-through" }}  >
+          <a rel="noopener noreferrer" target="_blank" href="https://www.oms.no">
+            {' '}
+            Oslo Market Solutions
+          </a>
+          , noe jeg har gjort siden Januar 2017 <br /> 
+        </span>
+
+        <a rel="noopener noreferrer" target="_blank" href="https://www.mnemonic.io">
           {' '}
-          Oslo Market Solutions
+          mnemonic
         </a>
-        , noe jeg har gjort siden Januar 2017. <br /> React og JavaScript.
+        , noe jeg har gjort siden Desember 2020. <br /> React og TypeScript.
       </p>
+
     </div>
   </article>
 );

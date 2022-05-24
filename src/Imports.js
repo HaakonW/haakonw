@@ -12,13 +12,13 @@ const Imports = () => (
       <span> './lang';</span>
     </li>
     <li>
-      import <span>{'{ Docker, OpenShift, FinTech }'}</span> from
+      import <span>{'{ Docker, FinTech, Firebase, lean }'}</span> from
       <span> './buzzwords';</span>
     </li>
-    import <span>{' { frontEnd, UX, UI } '}</span> from
+    import <span>{' { frontEnd, React, UI } '}</span> from
     <span> './specialties';</span>
     <li>
-      import <span>{' { OMS } '}</span> from
+      import <span>{' { OMS, Mnemonic } '}</span> from
       <span> './utils/constants';</span>
     </li>
     <li>
@@ -26,6 +26,6 @@ const Imports = () => (
       <span>{' ./life '};</span>
     </li>
   </ul>
-);
+)
 
 export default Imports;

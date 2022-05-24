@@ -29,8 +29,8 @@ const CodeBlock = () => (
       </li>
       <li>
         employer=
-        <a href="http://wwww.oms.no" target="_blank" rel="noopener noreferrer">
-          <span>{'{OMS}'}</span>
+        <a href="http://wwww.mnemonic.io" target="_blank" rel="noopener noreferrer">
+          <span>{'{mnemonic}'}</span>
         </a>
       </li>
     </ul>
