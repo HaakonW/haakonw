@@ -6,7 +6,7 @@ body {
 
 h1,
 h2,
-h3 {
+h3, h4 {
   font-weight: 300;
   margin: 0px 0px 20px 0px;
 }
@@ -17,6 +17,10 @@ h3,
 h4 {
   color: lightblue;
   font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
 }
 
 p {
@@ -104,3 +108,4 @@ section > ul {
   margin-bottom: 40px;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 10);
 }
+

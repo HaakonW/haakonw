@@ -29,12 +29,19 @@ const CodeBlock = () => (
       </li>
       <li>
         employer=
-        <a href="http://wwww.mnemonic.io" target="_blank" rel="noopener noreferrer">
+        <a
+          href="http://wwww.mnemonic.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <span>{'{mnemonic}'}</span>
         </a>
       </li>
     </ul>
     <h2>{' />'}</h2>
+    <small>
+      <i>Not actucal code you code nits</i>
+    </small>
     <h3>export default Developer</h3>
   </article>
 );
