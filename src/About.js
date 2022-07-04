@@ -1,19 +1,19 @@
 import React from 'react';
-import moment from 'moment';
 import img from './profilePic.jpg';
 import './App.css';
 
-// function calculateAge(birthday) { // birthday is a date
-//   var ageDifMs = Date.now() - birthday;
-//   var ageDate = new Date(ageDifMs); // miliseconds from epoch
-//   return Math.abs(ageDate.getUTCFullYear() - 1970);
-// }
+function calculateAge(birthday) {
+  // birthday is a date
+  var ageDifMs = Date.now() - birthday;
+  var ageDate = new Date(ageDifMs); // miliseconds from epoch
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
 
 const About = () => (
   <article className="rightSide">
     <h2>
-      {moment().diff(moment('01/05/1989'), 'years')} år gammel front-end
-      utvikler fra Oslo.{' '}
+      {calculateAge(new Date('05/01/1989'))} år gammel front-end utvikler fra
+      Oslo.{' '}
     </h2>
     <div>
       <img
@@ -47,10 +47,10 @@ const About = () => (
       </p>
     </div>
     <div>
-      <h3>Sideprosjekter:</h3>
+      <h4>Sideprosjekter:</h4>
       <div className="sideProjects">
         <div>
-          <h4>
+          <h5>
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -58,7 +58,7 @@ const About = () => (
             >
               Amexvenn.no
             </a>
-          </h4>
+          </h5>
           <p>
             En nettside som gir en oversikt over hvor en kan bruke american
             express som betalingsmåte i Norge. Laget for å kunne opptjene mest
@@ -66,7 +66,7 @@ const About = () => (
           </p>
         </div>
         <div>
-          <h4>
+          <h5>
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -74,7 +74,7 @@ const About = () => (
             >
               Parkettlegger.no
             </a>
-          </h4>
+          </h5>
           <p>En kalkulator som regner ut hvordan du skal legge parkettgulv.</p>
         </div>
       </div>
