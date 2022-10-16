@@ -43,7 +43,8 @@ const About = () => (
           {' '}
           mnemonic
         </a>
-        , noe jeg har gjort siden Desember 2020. <br /> React og TypeScript.
+        , noe jeg har gjort siden Desember 2020. <br />
+        Utvikling i React og TypeScript
       </p>
     </div>
     <div>

@@ -8,7 +8,6 @@ h1,
 h2,
 h3, h4, h5 {
   font-weight: 300;
-  margin: 0px 0px 20px 0px;
 }
 
 h1,
@@ -16,20 +15,25 @@ h2,
 h3,
 h4 {
   color: lightblue;
-  font-size: 2em;
 }
 
 h4 {
   font-size: 1.5em;
 }
+h5 {
+  margin: 0;
+}
 
 p {
   color: #93ec73;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 pre {
   font-size: 1em;
+}
+small {
+  color: aliceblue;
 }
 
 ul {
@@ -50,7 +54,7 @@ a:hover {
 }
 
 ul span {
-  color: greenyellow;
+  color: #93ec73;
 }
 section > ul {
   list-style: none;
@@ -61,7 +65,6 @@ section > ul {
 }
 
 .container {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +75,8 @@ section > ul {
     flex-direction: column;
   }
   ul {
-    margin: 5px 0px 5px 40px;
+    margin-left: 0px;
+    font-size: 0.75em;
   }
 }
 
