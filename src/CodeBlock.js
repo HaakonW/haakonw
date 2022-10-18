@@ -4,7 +4,7 @@ import './App.css';
 
 const CodeBlock = () => (
   <article>
-    <h2>{'<'}Developer</h2>
+    <h3>{'<'}Developer</h3>
     <ul>
       <li>
         education=<span>{'{bachelor}'} </span>
@@ -40,7 +40,7 @@ const CodeBlock = () => (
     </ul>
     <h2>{' />'}</h2>
     <small>
-      {'<!--'} <i>Not actucal code you code nits</i> {'-->'}
+      {'<!--'} <i>Not actucal code, you code nits</i> {'-->'}
     </small>
     <h3>export default Developer</h3>
   </article>
