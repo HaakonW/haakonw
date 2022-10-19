@@ -108,20 +108,10 @@ margin-bottom: 2em;
     grid-template-columns: 1fr;
   }
 
-  ul {
+  .codeBlock, .imports {
     margin-left: 0px;
-    font-size: 0.75em;
   }
-  article {
-    margin: 1em 0;
-  }
-  article > ul {
-    margin-left: 1em;
-    padding: 0;
-  }
-  h1, h2, h3, h4{
-    margin: 0;
-  }
+
   h2 {
     font-size:1em;
   }
