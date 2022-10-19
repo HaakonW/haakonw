@@ -55,7 +55,7 @@ export const About = () => {
           </p>
         </div>
         <div>
-          <h4>Sideprosjekter:</h4>
+          <h4>Sideprosjekter</h4>
           {unpaidSideHustlesWithBigDreams.map((item) => (
             <div key={item.name}>
               <h5>

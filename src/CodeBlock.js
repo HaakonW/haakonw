@@ -39,10 +39,11 @@ const CodeBlock = () => (
       </li>
     </ul>
     <h2>{' />'}</h2>
+
+    <h3>export default Developer</h3>
     <small>
       {'<!--'} <i>Not actucal code, you code nits</i> {'-->'}
     </small>
-    <h3>export default Developer</h3>
   </article>
 );
 export default CodeBlock;
