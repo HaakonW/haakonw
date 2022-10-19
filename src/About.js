@@ -10,7 +10,7 @@ const unpaidSideHustlesWithBigDreams = [
 
   {
     name: 'Parkettlegger.no',
-    url: 'https://www.parkettlegger.no"',
+    url: 'https://www.parkettlegger.no',
     desc: 'En kalkulator som regner ut hvordan du skal legge parkettgulv. Laget i forbindelse med oppussing av leilghet og at det var tungvindt å regne ut hele tiden.',
   },
   {
