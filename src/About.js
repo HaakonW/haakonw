@@ -11,12 +11,12 @@ const unpaidSideHustlesWithBigDreams = [
   {
     name: 'Parkettlegger.no',
     url: 'https://www.parkettlegger.no',
-    desc: 'En kalkulator som regner ut hvordan du skal legge parkettgulv. Laget i forbindelse med oppussing av leilghet og at det var tungvindt å regne ut hele tiden.',
+    desc: 'En kalkulator som regner ut hvordan du skal legge parkettgulv slik at det er flytende. Laget i forbindelse med oppussing av leilighet.',
   },
   {
     name: 'Petimeter.io',
     url: 'https://petimeter.io',
-    desc: 'En webapp som for regsitrering av avvik i servicebransjen. Laget med firebase og cloud functions',
+    desc: 'En webapp for regsitrering av avvik og rapportering i servicebransjen. Laget med firebase og cloud functions.',
   },
 ];
 export const About = () => {
