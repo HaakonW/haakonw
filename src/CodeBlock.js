@@ -3,31 +3,31 @@ import React from 'react';
 import './App.css';
 
 const CodeBlock = () => (
-  <article>
+  <article className="codeBlock">
     <h3>{'<'}Developer</h3>
-    <ul>
-      <li>
+    <div>
+      <div>
         education=<span>{'{bachelor}'} </span>
-      </li>
-      <li>
+      </div>
+      <div>
         age=<span>{'{age}'} </span>
-      </li>
-      <li>
+      </div>
+      <div>
         experience=<span>{'{experience}'} </span>
-      </li>
-      <li>
+      </div>
+      <div>
         type=
         <span>{'{frontEnd}'}</span>
-      </li>
-      <li>
+      </div>
+      <div>
         lang=
         <span>{'{[HTML, CSS, JavaScript, React]}'}</span>
-      </li>
-      <li>
+      </div>
+      <div>
         buzzwords=
         <span>{'{[Docker, openShift, FinTech]}'} </span>
-      </li>
-      <li>
+      </div>
+      <div>
         employer=
         <a
           href="http://wwww.mnemonic.io"
@@ -36,11 +36,11 @@ const CodeBlock = () => (
         >
           <span>{'{mnemonic}'}</span>
         </a>
-      </li>
-    </ul>
-    <h2>{' />'}</h2>
+      </div>
+    </div>
+    <h3>{' />'}</h3>
 
-    <h3>export default Developer</h3>
+    <h4>export default Developer</h4>
     <small>
       {'<!--'} <i>Not actucal code, you code nits</i> {'-->'}
     </small>

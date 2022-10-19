@@ -40,21 +40,30 @@ small {
   font-size: 0.75em;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.imports, .codeBlock {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1em;
   margin: 5px 0px 5px 20px;
   color: #e9715c;
 }
 
-
-ul span {
-  color: #93ec73;
+.codeBlock {
+margin-top: 2em;
+margin-bottom: 2em;
 }
 
 
+.codeBlock > h3 {
+  margin: 0;
+}
+
+.codeBlock > div {
+  margin-left: 1em;
+}
+
+
+.imports span, .codeBlock span {
+  color: #93ec73;
+}
 
 .grid-1 {
   display: grid;
@@ -78,7 +87,6 @@ ul span {
 /* items */
 
 .grid-1 div {
-  color: white;
   font-size: 20px;
   }
 
