@@ -15,7 +15,7 @@ const unpaidSideHustlesWithBigDreams = [
   },
   {
     name: 'Petimeter.io',
-    url: 'https://www.parkettlegger.no"',
+    url: 'https://petimeter.io',
     desc: 'En webapp som for regsitrering av avvik i servicebransjen. Laget med firebase og cloud functions',
   },
 ];
